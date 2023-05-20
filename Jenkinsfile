@@ -4,6 +4,15 @@ pipeline {
         maven 'maven-3.9.2'
     }
     
+    environment {
+        NEW_VERSION = '1.3'
+    }
+
+    parameters {
+        choice(name: 'VERSION', choices:['1','2', '3'], description: '')
+        booleanParam(name: 'executeTest', defaultValue : true, description: '')
+    }
+    
     stages {
         stage('Checkout') {
             steps {
