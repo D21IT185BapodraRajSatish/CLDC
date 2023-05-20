@@ -19,7 +19,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'amin', url: 'https://github.com/D21IT185BapodraRajSatish/CLDC.git'
+                git branch: 'main', url: 'https://github.com/D21IT185BapodraRajSatish/CLDC.git'
             }
         }
         stage('init'){
