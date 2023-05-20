@@ -29,15 +29,15 @@
 		</dependency>
 	</dependencies>
 
-<!-- 	<build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build> -->
-	<build>
+	</build>
+<!-- 	<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -48,6 +48,6 @@
             </configuration>
         </plugin>
     </plugins>
-</build>
+</build> -->
 
 </project>
